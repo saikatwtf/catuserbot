@@ -176,7 +176,7 @@ async def doge(event):
         return await edit_delete(
             event, "__What is doge supposed to say? Give some text.__"
         )
-    await edit_delete(event, "`Wait, processing.....`")
+    await edit_delete(event, "`HueHueHue🤪🤪🤪.....`")
     if not os.path.isdir("./temp"):
         os.mkdir("./temp")
     temp_name = "./temp/doge_temp.jpg"
@@ -308,7 +308,7 @@ async def gandhi(event):
         return await edit_delete(
             event, "What is gandhi supposed to write? Give some text."
         )
-    await edit_delete(event, "Wait, processing.....")
+    await edit_delete(event, "Yooo RamdiBaaz Gandhi is here 😎.....")
     if not os.path.isdir("./temp"):
         os.mkdir("./temp")
     temp_name = "./temp/gandhi_temp.jpg"

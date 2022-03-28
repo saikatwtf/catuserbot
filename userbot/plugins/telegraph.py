@@ -84,7 +84,7 @@ async def _(event):
             await catevent.edit(
                 f"**Link: `https://telegra.ph{media_urls[0]}`\
                  \nㅤㅤㅤ\
-                 \n**Uploaded to** **[Telegraph](https://telegra.ph{media_urls[0]})** **in {ms} seconds by {mention}**",
+                 \n**Uploaded to** [Telegraph](https://telegra.ph{media_urls[0]}) **in {ms} sec by** {mention}",
                 link_preview=True,
             )
     elif input_str in ["text", "t"]:

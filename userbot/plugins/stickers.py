@@ -71,7 +71,7 @@ def pack_name(userid, pack, is_anim, is_video):
         return f"saikatFTW_Vol{pack}_anim"
     if is_video:
         return f"saikatFTW_Vol{pack}_vid"
-    return f"saikatFTW_Vol{pack}"
+    return f"saikatFTW_Vol{pack}_meme"
 
 
 def char_is_emoji(character):
